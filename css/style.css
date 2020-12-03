@@ -1,0 +1,338 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*header in cssi*/
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 2500px;
+}
+
+.container-up {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.contact-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 0;
+}
+
+.contact-items-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-items-social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-item-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px;
+}
+
+.contact-item-mail span {
+  margin-left: 10px;
+}
+
+.social-facebook a, .social-twitter a {
+  margin-right: 20px;
+}
+
+/* menu hissesi*/
+.clinic-navmenu {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid lightblue;
+  padding: 30px 0px;
+}
+
+.clinic-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.navmenu-item {
+  padding: 0px 5px;
+}
+
+.logo img {
+  max-height: 40px;
+}
+
+.navmenu-item {
+  margin-left: 40px;
+  color: #024B6C;
+  font-weight: bold;
+}
+
+.navmenu-item a {
+  text-decoration: none;
+}
+
+.clinic-book, .navmenu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clinic-btn a {
+  text-decoration: none;
+  background: orangered;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.clinic-slider {
+  position: relative;
+  left: 180px;
+}
+
+.container-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.slider-header-text-ust {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.slider-header-text-alt {
+  font-size: 40px;
+}
+
+.slider-text {
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 20px 0px;
+}
+
+.slider-button {
+  padding: 10px 0px;
+}
+
+.slider-button a {
+  text-decoration: none;
+  background: orangered;
+  color: white;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#clinic-form {
+  padding: 70px 0px;
+}
+
+.slider-form-one {
+  background-color: #336F8A;
+  border-right: 1px solid white;
+  padding-bottom: 25px;
+  width: 65%;
+}
+
+.slider-from-two {
+  padding-bottom: 25px;
+  background-color: #336F8A;
+  width: 35%;
+}
+
+.slider-form-header {
+  padding: 20px 0;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.slider-form-input {
+  width: 50%;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.slider-form-left {
+  width: 100%;
+  padding: 45px;
+}
+
+.slider-form-right {
+  width: 100%;
+  padding: 45px;
+}
+
+.slider-input {
+  padding: 20px 25px;
+  width: 100%;
+}
+
+.slider-form-message {
+  width: 100%;
+  padding-right: 25px;
+  margin-top: 20px;
+}
+
+.slider-textarea {
+  height: 180px;
+  padding: 15px 25px;
+  width: 100%;
+}
+
+.slider-from-btn {
+  margin-top: 40px;
+}
+
+.slider-from-btn a {
+  text-decoration: none;
+  background: orangered;
+  color: white;
+  padding: 20px 30px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.slider-form-texts {
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.slider-from-country h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.slider-from-country span {
+  color: white;
+  font-size: 20px;
+}
+
+.slider-from-address p {
+  margin: 20px 0px;
+  color: white;
+  font-size: 16px;
+}
+
+.slider-from-mail span {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 30px 0px;
+}
+
+.slider-from-mail p {
+  color: white;
+  font-size: 16px;
+  margin: 30px 0px;
+}
+
+.slider-from-date span {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.slider-from-date p {
+  color: white;
+  font-size: 14px;
+}
+
+.slider-from-call {
+  top: 140px;
+}
+
+.slider-from-call span {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.slider-from-call p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */

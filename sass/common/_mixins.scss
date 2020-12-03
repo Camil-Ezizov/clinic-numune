@@ -1,0 +1,32 @@
+@mixin flex{
+    display: flex;
+}
+@mixin justify-content-between {
+    justify-content: space-between;
+}
+@mixin align-items-center{
+    align-items: center;
+}
+@mixin a-decoration-none{
+    text-decoration: none ;
+}
+@mixin bg-face-color($bg-color,$face-color){
+background: $bg-color;
+color: $face-color;
+}
+@mixin bottom-spacing($padding-y,$padding-x){
+padding:$padding-y $padding-x;
+}
+@mixin ft-weight ($fon-wieght){
+    font-weight:$fon-wieght;
+}
+@mixin relative{
+    position: relative;
+    left: 180px;
+}
+@mixin wh-color{
+    color: $facec-color;
+}
+@mixin ft-size{
+font-size: $ftc-size-sm;
+}
